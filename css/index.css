@@ -6,7 +6,7 @@
 body{
     background-image: 100% 100%;
     height: 100vh;
-    background-image: url("https://api.ixiaowai.cn/api/api.php");
+    background-image: url("https://api.btstu.cn/sjbz/api.php?lx=suiji&format=images");
     flex-direction: column;
     display: flex;
 }
