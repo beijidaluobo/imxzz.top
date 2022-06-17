@@ -1,26 +1,147 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>北极大萝卜</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="icon" type="image/icon" href="favicon.ico">
+    <title>无趣驿站</title>
+    <meta name="theme-color" content="#ffc91d" />
+    <link rel="icon" href="favicon.ico" />
+    <link href="static/kico.css" rel="stylesheet" type="text/css" />
+    <link href="static/paul.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1" />
+    <!-- jQuery -->
+    <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <aside class="sidebar">
+        <div class="avatar">
+            <img src="static/img/touxing.png" title="饮茶先啦" />
+        </div>
+        <div class="jianjie">
+            <p style="text-align:center;">我偷的，全是偷来的，我有罪</p>
+        </div>
+        <nav class="nav">
+            <a href="#info">自我介绍</a>
+            <a href="#blog">博客及爱好</a>
+            <a href="#music">音乐</a>
+            <a href="#story">实验室</a>
+            <a href="#team">图片集</a>
+        </nav>
+    </aside>
+    <main>
+        <section id="info">
+            <div class="wrap">
+                <h2 class="title">网站资料</h2>
+                <div class="row">
+                    <div class="col-l-4">
+                        <p>无趣驿站</p>
+                        <p>创建者：男</p>
+                        <p>年龄：21</p>
+                        <p>怪物猎人骨灰级爱好者</p>
+                        <p>学历：大专（暂定）</p>
+                    </div>
+                    <div class="col-l-4">
+                        <p>QQ：3313629407</p>
+                        <p>GitHub：<a target="_blank" href="https://github.com/beijidaluobo">北极大萝卜</a></p>
+                        <p>B站：<a target="_blank"
+                                href="https://space.bilibili.com/79687550?spm_id_from=333.1007.0.0">点点看吧</a></p>
+                        <p>邮箱：<a target="_blank" href="mailto:xz194613099@163.com">163邮箱</a></p>
+                    </div>
+                    <div class="col-l-4">
+                        <p>只是一个普普通通的大学生吧，面临毕业即失业的风险，喜欢无聊的时候玩玩游戏罢了，有一个自己喜欢的姑娘，人生无憾啦。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="wrap">
+                <h2 class="title">博客及爱好</h2>
+                <div class="row scrollable">
 
-    <p class="title"> 一个十分小众且不为人知的网站</p>
-    <div class="tou">
-        <a href="http://www.bilibili.com"> <img src="./img/)YG]DVU9_]K`DV13S2@1)A4.png" alt="图片不见喽" title="饮茶先啦"
-                width="200px"></a>
-    </div>
-    <div></div>
-    <div class="wenzi3">
-        <span class="wenzi">满门忠烈</span><span class="wenzi">精忠报国</span>
-    </div>
+                    <div class="col-s-6 col-m-4 center-fixed">
+                        <div class="skills-icon">
+                            <i class="fa fa-gamepad"></i>
+                        </div>
+
+
+                        <div class="skills-title">
+                            <h3>爱好</h3>
+                            <p>最近沉迷猎龙，还有当仓鼠</p>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-4 center-fixed">
+                        <div class="skills-icon">
+                            <i class="fa fa-sign-in"></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>个人博客（在建ing）</h3>
+                            <a href="https://blog.imxzz.top/">个人博客（未完工版本，其实刚建站）</a>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-4 center-fixed">
+                        <div class="skills-icon">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>王某源</h3>
+                            <p>能十分熟练的气死人，女大学生一枚。不爱运动爱追剧</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="music">
+            <div class="wrap">
+                <h2 class="title">听听歌</h2>
+                <link rel="stylesheet" href="./static/APlayer.min.css">
+                <div id="aplayer"></div>
+                <script src="./static/APlayer.min.js"></script>
+            </div>
+
+            </div>
+        </section>
+        <section id="story">
+            <div class="wrap">
+                <h2 class="title">进来耍耍？！？</h2>
+                <div class="row">
+                    <div class="col-m-8">
+                        <a target="_blank" href="./game/2048/2048/index.html"> <img
+                                style="height: 250px;margin-left: 100px;" src="./static/img/monster1.webp" alt=""></a>
+                    </div>
+                    <div class="col-m-4 center-fixed">
+                        <a target="_blank" href="./game/chess/index.html"> <img style="height:250px"
+                                src="./static/img/monster.webp" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-d" id="team">
+            <div class="wrap">
+                <h2 class="title">图片集</h2>
+                <div class="row">
+                    <div class="col-m-6">
+                        <p>暂时还没什么想法布局，放两张自己喜欢的帅照吧
+                        </p>
+                        <!-- <img src="./static/img/works/1.jpg" alt=""><img src="./static/img/works/2.jpg" alt=""> -->
+                    </div>
+                    <div class="pic">
+                        <img src="./static/img/works/1.jpg" alt=""><img src="./static/img/works/2.jpg" alt=""><img
+                            src="./static/img/works/3.jpg" alt=""><img src="./static/img/works/4.jpg" alt=""><img
+                            src="./static/img/works/5.jpg" alt=""><img src="./static/img/works/6.jpg" alt=""><img
+                            src="./static/img/works/7.jpg" alt=""><img src="./static/img/works/8.jpg" alt=""><img
+                            src="./static/img/works/9.jpg" alt=""><img src="./static/img/works/10.jpg" alt="">
+                    </div>
+        </section>
+        <footer>
+            <p>© 2018 By <a href="https://paugram.com" title="保罗的博客" target="_blank">Dreamer-Paul</a>.</p>
+        </footer>
+    </main>
+
+    <script src="static/kico.js"></script>
+    <script src="static/paul.js"></script>
+    <script src="/muxic.js"></script>
 </body>
 
 </html>
