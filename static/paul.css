@@ -326,3 +326,8 @@ footer a {
     min-width: 20%;
     max-width: 20%;
 }
+
+#waifu {
+    left: unset !important;
+    right: 15px;
+}
