@@ -1018,3 +1018,12 @@ footer {
     border-radius: 10px;
     background-color: #eeeeee;
 }
+
+/*看板娘位置更改*/
+#waifu {
+    transform: translateY(170px) !important;
+}
+
+#waifu:hover {
+    transform: translateY(5px) !important;
+}

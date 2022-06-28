@@ -250,6 +250,11 @@
         background: transparent !important;
     }
 
+    /*隐藏看板娘*/
+    #waifu {
+        display: none;
+    }
+
 }
 
 /*小于390px时*/
