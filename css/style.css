@@ -1021,9 +1021,7 @@ footer {
 
 /*看板娘位置更改*/
 #waifu {
-    transform: translateY(170px) !important;
-}
-
-#waifu:hover {
+    left: auto !important;
+    right: 15px !important;
     transform: translateY(5px) !important;
 }
